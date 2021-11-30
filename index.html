@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Azkary</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">     
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        
+        <audio id="mp3" src=""></audio>
+       
+        <div class="container">
+            <div class="row main">
+                 <h1 style="text-align:center;color:white">أذكار المسلم</h1>
+                <div class="col-lg-12 col-xs-12">
+                    <div class="custom">
+                        <select id="tone" class="form-control select">
+                            <option>Select Tone</option>
+                           
+                            <option value="sound/elkorsi.mp3">أيه الكرسي</option>
+                            <option value="sound/elsamd.mp3">سورة الصمد</option>
+                            <option value="sound/elnas.mp3">سورة الناس</option>
+                            <option value="sound/hasbiya.mp3">حسبي الله</option>
+                            <option value="sound/3afini.mp3">اللهم عافني</option>
+                            <option value="sound/3azab.mp3">اللهم انى اعوز بك من عذاب القبر</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12 col-xs-12">
+                    <div class="custom">
+                        <select id="interval" class="form-control select">
+                            <option >Select Interval</option>
+                            <option value="100000">One Minute</option>
+                            <option value="200000">Second Minute</option>
+                            <option value="300000">Three Minute</option>
+                        </select>
+                    </div>             
+                        
+                </div>
+               <h1 style="text-align:center">
+                   <button id="btn" style="width:100px" class="btn btn-primary">Go</button>
+                </h1>
+               
+            </div>
+        </div>
+
+
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+ 
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script src="js/js.js"></script>
+        
+    </body>
+</html>

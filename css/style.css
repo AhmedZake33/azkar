@@ -1,0 +1,26 @@
+body{
+
+    background-color: black
+}
+.main{
+
+    height: auto;
+    background-color: black;
+    padding: 20px;
+
+}
+.custom{
+
+    margin: 10px;
+   
+    height: 70px;
+    padding: 15px
+    
+}
+
+.select{
+
+    height: 35px;
+   
+}
+
